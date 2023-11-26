@@ -1,0 +1,30 @@
+.sidebar-title{
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.sidebar-items{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.sidebar-label{
+    display: block;
+    position: relative;
+    font-size: 18px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.option{
+    transform: scale(2);
+}.title{
+    margin-left: 10px;
+}
+.search-level{
+    padding: 5px;
+     font-size: 12px;
+     border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
