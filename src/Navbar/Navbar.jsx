@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import { FaGraduationCap } from "react-icons/fa";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -5,7 +7,12 @@ export default function Navbar() {
     <>
       <div className="navbar-container">
         <div className="navbar">
-          <div className="nav-logo">Edusanjal</div>
+          <div className="nav-logo">
+            <Link className="nav-link-head" to="/">
+              <FaGraduationCap />
+              edusanjal
+            </Link>
+          </div>
           <div className="search">
             <input
               type="text"
@@ -20,9 +27,21 @@ export default function Navbar() {
         </div>
         <div className="menu">
           <ul className="nav-menu">
-            <li>Course</li>
-            <li>Colege</li>
-            <li>School</li>
+            <li>
+              <Link className="nav-link" to="/">
+                Courses
+              </Link>
+            </li>
+            <li>
+              <Link className="nav-link" to="/college">
+                College
+              </Link>
+            </li>
+            <li>
+              <Link className="nav-link" to="/school">
+                School
+              </Link>
+            </li>
             <li>Other</li>
           </ul>
         </div>

@@ -1,9 +1,8 @@
-import Affiliation from "../Affiliation/Affiliation";
-import Degree from "../Degree/Degree";
-import Discipline from "../Discipline/Discipline";
-import Level from "../Level/Level";
 import "./Sidebar.css";
-
+import Level from "./Level/Level";
+import Degree from "./Degree/Degree";
+import Affiliation from "./Affiliation/Affiliation";
+import Discipline from "./Discipline/Discipline";
 export default function Sidebar() {
   return (
     <section className="sidebar">

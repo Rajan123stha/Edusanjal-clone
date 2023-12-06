@@ -1,0 +1,61 @@
+.footer-container{
+    display: flex;
+    position: relative;
+    bottom: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(224, 228, 227);
+    margin-top: 3rem;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    
+}
+.footer-container .social{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.logo{
+text-decoration: none;
+justify-content: center;
+  display: flex;
+  align-items: center;
+  color: blue;
+  
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.brief{
+    margin-top: 0;
+    color: rgb(20, 19, 19);
+    font-size: 18px;
+    
+}
+.social-media{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: rgb(32, 32, 102);
+}
+.heading{
+    text-decoration: none;
+    margin-bottom: 4px;
+}
+.list-items-footer{
+    list-style: none;
+    display: contents;
+    
+    
+}
+.list-items-footer li{
+    padding-bottom: 10px;
+}
+.list-items-footer a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(24, 23, 23);
+    
+}
