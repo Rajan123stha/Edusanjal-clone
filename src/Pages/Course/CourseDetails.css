@@ -1,0 +1,112 @@
+.course-details-container{
+    margin-top: -40px;
+}
+.course-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 238, 232);
+}
+.c-logo{
+    width: 18%;
+    font-size: 72px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(45, 45, 218);
+}
+.course-info{
+    width: 80%;
+    text-align: left;
+    padding: 15px;
+}
+.c-title{
+    font-size: 34px;
+    font-weight: 600;
+    color: rgb(14, 13, 13);
+    margin-bottom: 10px;
+}
+.c-university, .c-duration {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(58, 57, 57);
+    margin-bottom: 5px;
+}
+.course-information{
+display: flex;
+
+}
+.left-sidebar{
+    width: 22%;
+    text-align: left;
+
+}
+.left-sidebar ul{
+    position: sticky;
+    top: 0;
+}
+.left-sidebar li{
+    list-style: none;
+    font-size: 18px;
+    color: rgb(71, 71, 204);
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    
+}
+.left-sidebar .list-item{
+    text-decoration: none;
+    
+}
+.main-section{
+    width: 50%;
+    text-align: left;
+    margin: 15px;
+}
+.main-section .details{
+    font-size: 18px;
+    color: rgb(58, 57, 57);
+    padding: 10px 5px;
+    margin-bottom: 15px;
+    text-align:justify;
+}
+.button-s{
+    padding: 10px;
+}
+.offering-colleges{
+    margin: 10px;
+    background: rgb(238, 238, 232);
+    border-radius: 15px;
+}
+.offering-colleges h3{
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: -5px;
+    padding-bottom: 10px;
+}
+.colleges-list{
+    margin: 20px;
+}
+.college{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.college-logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.college-logo p{
+    font-size: 20px;
+    color: rgb(31, 30, 30);
+    font-weight: 400;
+    margin-left: 10px;
+}
+.right-sidebar{
+    margin: 5px;
+}
+.right-sidebar .heading{
+    font-size: 24px;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 500;
+}

@@ -30,20 +30,11 @@
       border-radius: 5px;
       width: 450px;
 }
-.buttons button{
-  padding: 10px 15px;
-  outline: none;
-  border: 1px solid #626262;
-  border-radius: 10%;
-  color: white;
-  font-size: 18px;
-  font-weight: 500;
-  background: rgb(45, 45, 218);
-}
+
 .button1{
   margin-right: 10px;
-  color: rgb(12, 6, 6);
-  background: white;
+  
+  
 }
 
 .nav-menu{

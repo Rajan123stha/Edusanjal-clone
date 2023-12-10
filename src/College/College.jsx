@@ -1,4 +1,4 @@
-import Card from "../Components/Card";
+import CollegeCard from "../Components/CollegeCard";
 import Sidebar from "../Sidebar/Sidebar";
 
 export default function College() {
@@ -7,16 +7,16 @@ export default function College() {
       <h2 className="course-heading">Colleges in Nepal</h2>
       <Sidebar />
       <div className="card-container">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <CollegeCard />
+        <CollegeCard />
+        <CollegeCard />
+        <CollegeCard />
+        <CollegeCard />
+        <CollegeCard />
+        <CollegeCard />
+        <CollegeCard />
+        <CollegeCard />
+        <CollegeCard />
       </div>
     </>
   );

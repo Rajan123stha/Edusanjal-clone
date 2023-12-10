@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import { FaGraduationCap } from "react-icons/fa";
 import "./Navbar.css";
+import Button from "../Components/Button/Button";
 
-export default function Navbar() {
+export default function Navbar(props) {
   return (
     <>
       <div className="navbar-container">
@@ -21,8 +22,8 @@ export default function Navbar() {
             />
           </div>
           <div className="buttons">
-            <button className="button1">Sign in</button>
-            <button className="button">Sign up</button>
+            <Button title="Sign up" />
+            <Button title="Sign in" />
           </div>
         </div>
         <div className="menu">

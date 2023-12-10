@@ -6,7 +6,7 @@ import College from "./College/College.jsx";
 import School from "./School/School.jsx";
 import CourseDetails from "./Pages/Course/CourseDetails.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import CoursesData from "./Data/Data.js";
 function App() {
   return (
     <>
@@ -17,12 +17,16 @@ function App() {
           <Route exact path="/" element={<Courses />} />
           <Route exact path="/college" element={<College />} />
           <Route exact path="/school" element={<School />} />
-          <Route exact path="/course-details" element={<CourseDetails />} />
+          <Route
+            exact
+            path="/courses-details/:courseId"
+            element={<CourseDetails course={CoursesData} />}
+          />
         </Routes>
+        <footer>
+          <Footer />
+        </footer>
       </Router>
-      <footer>
-        <Footer />
-      </footer>
     </>
   );
 }
